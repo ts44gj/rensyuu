@@ -1,11 +1,9 @@
-function bb() {
-   document.getElementById("idbb").style.backgroundColor = "black";
+function black() {
+   document.getElementById("js-body").style.backgroundColor="black"
+   document.getElementById("js-title").style.color = "white"
       }
-function wm() {
-    document.getElementById("idwm").style.color = "white";}
-        
-function wb() {
-    document.getElementById("idwb").style.backgroundColor = "white";
+
+function white() {
+    document.getElementById("js-body").style.backgroundColor = "white";
+    document.getElementById("js-title").style.color = "black";
            }
-function bm() {
-    document.getElementById("idbm").style.color = "black";}
